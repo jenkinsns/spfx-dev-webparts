@@ -4,12 +4,18 @@
       "entry": "./lib/webparts/faq/FaqWebPart.js",
       "manifest": "./src/webparts/faq/FaqWebPart.manifest.json",
       "outputPath": "./dist/faq.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/bootstrapExample/BootstrapExampleWebPart.js",
+      "manifest": "./src/webparts/bootstrapExample/BootstrapExampleWebPart.manifest.json",
+      "outputPath": "./dist/bootstrap-example.bundle.js"
     }
   ],
   "externals": {
-    "jquery":"node_modules/jquery/dist/jquery.min.js"
+    "jquery": "node_modules/jquery/dist/jquery.min.js"
   },
   "localizedResources": {
-    "faqStrings": "webparts/faq/loc/{locale}.js"
+    "faqStrings": "webparts/faq/loc/{locale}.js",
+    "bootstrapExampleStrings": "webparts/bootstrapExample/loc/{locale}.js"
   }
 }

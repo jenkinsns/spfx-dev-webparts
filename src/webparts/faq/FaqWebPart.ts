@@ -6,6 +6,7 @@ import {
 } from '@microsoft/sp-webpart-base';
 
 import { escape } from '@microsoft/sp-lodash-subset';
+//import { SPComponentLoader } from '@microsoft/sp-loader';
 
 import styles from './Faq.module.scss';
 import * as strings from 'faqStrings';
@@ -18,13 +19,13 @@ import html from './Faq.html';
 export default class FaqWebPart extends BaseClientSideWebPart<IFaqWebPartProps> {
 
   public render(): void {
+    //SPComponentLoader.loadCss('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
     this.domElement.innerHTML = html.innerHtml;
-      let xyz = $(this.domElement).find('.jks').text();
-      this.getListItem();
+    this.getListItem();
   }
 
   /* Get List Item */
-private getListItem() {
+  public getListItem() {
 	// Getting our list item
 	$.ajax({
 		url:  "/sites/dev/_api/web/lists/getbytitle('FAQ')/items?",

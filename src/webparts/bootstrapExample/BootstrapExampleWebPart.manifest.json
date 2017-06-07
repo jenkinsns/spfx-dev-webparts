@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "4979e128-d4a0-41a4-b176-4aff9b189b65",
+  "alias": "BootstrapExampleWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "4979e128-d4a0-41a4-b176-4aff9b189b65",
+    "group": { "default": "Under Development" },
+    "title": { "default": "bootstrapExample" },
+    "description": { "default": "bootstrapExample description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "bootstrapExample"
+    }
+  }]
+}

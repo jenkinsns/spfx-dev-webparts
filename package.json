@@ -8,6 +8,7 @@
   "dependencies": {
     "@microsoft/sp-client-base": "~1.0.0",
     "@microsoft/sp-core-library": "~1.0.0",
+    "@microsoft/sp-module-loader": "^0.5.1",
     "@microsoft/sp-webpart-base": "~1.0.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "jquery": "^3.2.1"
