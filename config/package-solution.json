@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-dev-webparts-client-side-solution",
+    "id": "b9726732-af7b-4164-aa0c-64cb75c588e3",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-dev-webparts.sppkg"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "spfx-dev-webparts",
+    "framework": "none",
+    "version": "1.0.2",
+    "libraryId": "b9726732-af7b-4164-aa0c-64cb75c588e3"
+  }
+}

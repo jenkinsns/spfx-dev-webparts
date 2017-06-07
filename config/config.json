@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/faq/FaqWebPart.js",
+      "manifest": "./src/webparts/faq/FaqWebPart.manifest.json",
+      "outputPath": "./dist/faq.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery":"node_modules/jquery/dist/jquery.min.js"
+  },
+  "localizedResources": {
+    "faqStrings": "webparts/faq/loc/{locale}.js"
+  }
+}
